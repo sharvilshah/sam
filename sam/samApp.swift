@@ -13,5 +13,8 @@ struct samApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            SidebarCommands()
+        }
     }
 }
